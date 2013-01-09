@@ -1,6 +1,8 @@
 <?php
 require_once 'PHPUnit/Autoload.php';
-require_once __DIR__.'/../src/variable.php';
+require_once '../vendor/autoload.php';
+
+use elements\Variable;
 
 class variableTest extends \PHPUnit_Framework_TestCase
 {
